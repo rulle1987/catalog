@@ -1,0 +1,381 @@
+<div class="p-5 mb-4 bg-light rounded-3">
+    <div class="container-fluid py-3">
+        <h3 class="display-5 fw-bold">Redes</h3>
+        <p>Usted puede agregar, editar o eliminar detalles de Red.</p>        
+        <button (click)="clickAddItem()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal" 
+        databackdrop="static" data-keyboard="false">
+            Agregar Detalles
+        </button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">                
+                <div class="modal-body">
+                    <form [formGroup]="formValue">
+
+                        <div class="row" style="border-bottom: 1px solid #dee2e6;">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <h3 class="modal-title" style="text-align: center; display: block; padding: 0.75rem;">{{ ModalTitle }}</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="network_Class">Clase de Red: </label>
+                                    <input type="text" id="network_Class" class="form-control" formControlName="network_Class" autocomplete="off">                                   
+                                    <span *ngIf="network_Class && network_Class.invalid && network_Class.touched" class="error">Este campo es requerido</span>
+                                    <span *ngIf="network_Class && network_Class.valid" class="success">El campo es correcto</span>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="ipAddress">Dirección IP:</label>
+                                    <input type="text" id="ipAddress" class="form-control" formControlName="ipAddress" autocomplete="off">                                    
+                                    <span *ngIf="ipAddress && ipAddress.invalid && ipAddress.touched" class="error">Este campo es requerido</span>
+                                    <span *ngIf="ipAddress && ipAddress.valid" class="success">El campo es correcto</span>                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="mask">Máscara de subred:</label>
+                                    <input type="text" id="mask" class="form-control" formControlName="mask" autocomplete="off">                                    
+                                    <span *ngIf="mask && mask.invalid && mask.touched" class="error"> Este campo es requerido</span>
+                                    <span *ngIf="mask && mask.valid" class="success">El campo es correcto</span>                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="get_Away">Puerta de enlace:</label>
+                                    <input type="text" id="get_Away" class="form-control" formControlName="get_Away" autocomplete="off">
+                                    <span *ngIf="get_Away && get_Away.invalid && get_Away.touched" class="error"> Este campo es requerido</span>
+                                    <span *ngIf="get_Away && get_Away.valid" class="success">El campo es correcto</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="prefered_DNS">DNS preferido:</label>
+                                    <input type="text" id="prefered_DNS" class="form-control" formControlName="prefered_DNS" autocomplete="off">
+                                    <span *ngIf="prefered_DNS && prefered_DNS.invalid && prefered_DNS.touched" class="error"> Este campo es requerido</span>
+                                    <span *ngIf="prefered_DNS && prefered_DNS.valid" class="success">El campo es correcto</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="alternative_DNS">DNS alternativo:</label>
+                                    <input type="text" id="alternative_DNS" class="form-control" formControlName="alternative_DNS" autocomplete="off">
+                                    <span *ngIf="alternative_DNS && alternative_DNS.invalid && alternative_DNS.touched" class="error"> Este campo es requerido</span>
+                                    <span *ngIf="alternative_DNS && alternative_DNS.valid" class="success">El campo es correcto</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="proxy">Proxy:</label>
+                                    <input type="text" id="proxy" class="form-control" formControlName="proxy" autocomplete="off">                                    
+                                    <span *ngIf="proxy && proxy.invalid && proxy.touched" class="error">Este campo es requerido</span>
+                                    <span *ngIf="proxy && proxy.valid" class="success">El campo es correcto</span>                                    
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="mac">Mac:</label>
+                                    <input type="text" id="mac" class="form-control" formControlName="mac" autocomplete="off">                                    
+                                    <span *ngIf="mac && mac.invalid && mac.touched" class="error">Este campo es requerido</span>
+                                    <span *ngIf="mac && mac.valid" class="success">El campo es correcto</span>                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="mail_System">Gestor de correo:</label>
+                                    <input type="text" id="mail_System" class="form-control" formControlName="mail_System" autocomplete="off">                                    
+                                    <span *ngIf="mail_System && mail_System.invalid && mail_System.touched" class="error">Este campo es requerido</span>
+                                    <span *ngIf="mail_System && mail_System.valid" class="success">El campo es correcto</span>                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="mail_User">Usuario de correo:</label>
+                                    <input type="text" id="mail_User" class="form-control" formControlName="mail_User" autocomplete="off">                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="dominio">Dominio:</label>
+                                    <input type="text" id="dominio" class="form-control" formControlName="dominio" autocomplete="off">                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row" style="margin-top: 10px;">
+                            <div class="col-lg-12">
+                                <div class="form-gorup">                                    
+                                    <div class="modal-footer">
+                                        <button type="button" id="clear" class="btn btn-secondary btn-block" data-bs-dismiss="modal" aria-label="Close">Close</button>
+                                        <button *ngIf="showAdd" type="submit" class="btn btn-primary btn-block" (click)="addItem()" [disabled]="!formValue.valid">Guardar</button>                                        
+                                        <button *ngIf="showEdit" type="submit" class="btn btn-success btn-block" (click)="updateItem()" [disabled]="!formValue.valid">Actualizar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </form>
+                </div>                
+            </div>
+        </div>
+    </div>
+   
+    <!-- Table -->
+    <div class="table-responsive">
+        <table class="table table-bordeless table-responsive-sm mt-4">
+            <thead>
+                <tr class="text-left">                
+                    <th>
+                        <div class="d-flex flex-row mb-3">
+                            <input [(ngModel)]="NetworkNetworkClassFilter"
+                            (keyup)="FilterFn()" placeholder="Filtrar">
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('network_Class', true)">
+                                <span class="fas fa-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('network_Class', false)">
+                                <span class="fas fa-arrow-down"></span>
+                            </button>
+                        </div>
+                        Clase de Red
+                    </th>
+                    <th>
+                        <div class="d-flex flex-row mb-3">
+                            <input [(ngModel)]="NetworkIpAddressFilter"
+                            (keyup)="FilterFn()" placeholder="Filtrar">
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('IPAddress', true)">
+                                <span class="fas fa-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('IPAddress', false)">
+                                <span class="fas fa-arrow-down"></span>
+                            </button>
+                        </div>
+                        Dirección
+                    </th>
+                    <th>
+                        <div class="d-flex flex-row mb-3">
+                            <input [(ngModel)]="NetworkMaskFilter"
+                            (keyup)="FilterFn()" placeholder="Filtrar">
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('mask', true)">
+                                <span class="fas fa-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('mask', false)">
+                                <span class="fas fa-arrow-down"></span>
+                            </button>
+                        </div>
+                        Máscara de subred
+                    </th>
+                    <th>
+                        <div class="d-flex flex-row mb-3">
+                            <input [(ngModel)]="NetworkGetAwayFilter"
+                            (keyup)="FilterFn()" placeholder="Filtrar">
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('get_Away', true)">
+                                <span class="fas fa-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('get_Away', false)">
+                                <span class="fas fa-arrow-down"></span>
+                            </button>
+                        </div>
+                        Puerta de enlace
+                    </th>
+                    <th>
+                        <div class="d-flex flex-row mb-3">
+                            <input [(ngModel)]="NetworkPreferedDNSFilter"
+                            (keyup)="FilterFn()" placeholder="Filtrar">
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('prefered_DNS', true)">
+                                <span class="fas fa-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('prefered_DNS', false)">
+                                <span class="fas fa-arrow-down"></span>
+                            </button>
+                        </div>
+                        DNS preferido
+                    </th>
+                    <th>
+                        <div class="d-flex flex-row mb-3">
+                            <input [(ngModel)]="NetworkAlternativeDNSFilter"
+                            (keyup)="FilterFn()" placeholder="Filtrar">
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('alternative_DNS', true)">
+                                <span class="fas fa-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('alternative_DNS', false)">
+                                <span class="fas fa-arrow-down"></span>
+                            </button>
+                        </div>
+                        DNS alternativo
+                    </th>
+                    <th>
+                        <div class="d-flex flex-row mb-3">
+                            <input [(ngModel)]="NetworkProxyFilter"
+                            (keyup)="FilterFn()" placeholder="Filtrar">
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('proxy', true)">
+                                <span class="fas fa-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('proxy', false)">
+                                <span class="fas fa-arrow-down"></span>
+                            </button>
+                        </div>
+                        Proxy
+                    </th>
+                    <th>
+                        <div class="d-flex flex-row mb-3">
+                            <input [(ngModel)]="NetworkMacFilter"
+                            (keyup)="FilterFn()" placeholder="Filtrar">
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('mac', true)">
+                                <span class="fas fa-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('mac', false)">
+                                <span class="fas fa-arrow-down"></span>
+                            </button>
+                        </div>
+                        Mac
+                    </th>
+                    <th>
+                        <div class="d-flex flex-row mb-3">
+                            <input [(ngModel)]="NetworkMailSystemFilter"
+                            (keyup)="FilterFn()" placeholder="Filtrar">
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('mail_System', true)">
+                                <span class="fas fa-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('mail_System', false)">
+                                <span class="fas fa-arrow-down"></span>
+                            </button>
+                        </div>
+                        Gestor de correo
+                    </th>
+                    <th>
+                        <div class="d-flex flex-row mb-3">
+                            <input [(ngModel)]="NetworkMailUserFilter"
+                            (keyup)="FilterFn()" placeholder="Filtrar">
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('mail_User', true)">
+                                <span class="fas fa-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('mail_User', false)">
+                                <span class="fas fa-arrow-down"></span>
+                            </button>
+                        </div>
+                        Usuario de correo
+                    </th>
+                    <th>
+                        <div class="d-flex flex-row mb-3">
+                            <input [(ngModel)]="NetworkDominioFilter"
+                            (keyup)="FilterFn()" placeholder="Filtrar">
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('dominio', true)">
+                                <span class="fas fa-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('dominio', false)">
+                                <span class="fas fa-arrow-down"></span>
+                            </button>
+                        </div>
+                        Dominio
+                    </th>                    
+                    <th colspan="2">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of itemList" class="text-left">
+                    <td>{{ item.network_Class }}</td>
+                    <td>{{ item.ipAddress }}</td>
+                    <td>{{ item.mask }}</td>                    
+                    <td>{{ item.get_Away }}</td>                    
+                    <td>{{ item.prefered_DNS }}</td>                    
+                    <td>{{ item.alternative_DNS }}</td>
+                    <td>{{ item.proxy }}</td>
+                    <td>{{ item.mac }}</td>
+                    <td>{{ item.mail_System }}</td>
+                    <td>{{ item.mail_User }}</td>
+                    <td>{{ item.dominio }}</td>
+                    <td>
+                        <div class="areaButton">
+                            <button      
+                                (click)="editItem(item.id)"                           
+                                type="button" 
+                                class="btn btn-sm btn-primary" 
+                                data-bs-toggle="modal" data-bs-target="#Modal" 
+                                databackdrop="static" data-keyboard="false"
+                            >
+                                <span class="fas fa-edit"></span>
+                            </button>
+                            <button 
+                                class="btn btn-sm btn-danger" 
+                                (click)="deleteItem(item)"                                
+                            >
+                                <span class="fas fa-trash"></span>
+                            </button>
+                        </div>                        
+                    </td>            
+                </tr>
+            </tbody>
+        </table>
+    </div>        
+</div>

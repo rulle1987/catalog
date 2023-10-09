@@ -1,0 +1,286 @@
+<div class="p-5 mb-4 bg-light rounded-3">
+    <div class="container-fluid py-3">
+        <h3 class="display-5 fw-bold">Computadoras</h3>
+        <p>Usted puede agregar, editar o eliminar registros de Computadoras.</p>        
+        <button (click)="clickAddItem()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal" 
+        databackdrop="static" data-keyboard="false">
+            Agregar Computadora
+        </button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">                
+                <div class="modal-body">
+                    <form [formGroup]="formValue">
+
+                        <div class="row" style="border-bottom: 1px solid #dee2e6;">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <h3 class="modal-title" style="text-align: center; display: block; padding: 0.75rem;">{{ ModalTitle }}</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="computer_Name">Nombre: </label>
+                                    <input type="text" id="computer_Name" class="form-control" formControlName="computer_Name" autocomplete="off">                                   
+                                    <span *ngIf="computer_Name && computer_Name.invalid && computer_Name.touched" class="error">Este campo es requerido</span>
+                                    <span *ngIf="computer_Name && computer_Name.valid" class="success">El campo es correcto</span>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="operative_System">Sistema Operativo:</label>
+                                    <input type="text" id="operative_System" class="form-control" formControlName="operative_System" autocomplete="off">                                    
+                                    <span *ngIf="operative_System && operative_System.invalid && operative_System.touched" class="error">Este campo es requerido</span>
+                                    <span *ngIf="operative_System && operative_System.valid" class="success">El campo es correcto</span>                                    
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="service_Pack">Service Pack:</label>
+                                    <input type="text" id="service_Pack" class="form-control" formControlName="service_Pack" autocomplete="off">                                    
+                                    <span *ngIf="service_Pack && service_Pack.invalid && service_Pack.touched" class="error">Este campo es requerido</span>
+                                    <span *ngIf="service_Pack && service_Pack.valid" class="success">El campo es correcto</span>                                    
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="antivirus">Antivirus:</label>
+                                    <input type="text" id="antivirus" class="form-control" formControlName="antivirus" autocomplete="off">                                    
+                                    <span *ngIf="antivirus && antivirus.invalid && antivirus.touched" class="error"> Este campo es requerido</span>
+                                    <span *ngIf="antivirus && antivirus.valid" class="success">El campo es correcto</span>                                    
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="serial_Number">Número de Serie:</label>
+                                    <input type="text" id="serial_Number" class="form-control" formControlName="serial_Number" autocomplete="off">
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="inventory_Number">Número de Inventario:</label>
+                                    <input type="text" id="inventory_Number" class="form-control" formControlName="inventory_Number" autocomplete="off">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="origen">Origen:</label>
+                                    <input type="text" id="origen" class="form-control" formControlName="origen" autocomplete="off">
+                                    <span *ngIf="origen && origen.invalid && origen.touched" class="error"> Este campo es requerido</span>
+                                    <span *ngIf="origen && origen.valid" class="success">El campo es correcto</span>                                        
+                                </div>
+                            </div>
+                        </div>
+                                        
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <div class="form-check">
+                                        <label for="sealed">Sellada?</label>
+                                        <input type="checkbox" id="sealed" class="form-check-input" formControlName="sealed" autocomplete="off">                                                
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row" style="margin-top: 10px;">
+                            <div class="col-lg-12">
+                                <div class="form-gorup">                                    
+                                    <div class="modal-footer">
+                                        <button type="button" id="clear" class="btn btn-secondary btn-block" data-bs-dismiss="modal" aria-label="Close">Close</button>
+                                        <button *ngIf="showAdd" type="submit" class="btn btn-primary btn-block" (click)="addItem()" [disabled]="!formValue.valid">Guardar</button>                                        
+                                        <button *ngIf="showEdit" type="submit" class="btn btn-success btn-block" (click)="updateItem()" [disabled]="!formValue.valid">Actualizar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </form>
+                </div>                
+            </div>
+        </div>
+    </div>
+   
+    <!-- Table -->
+    <div class="table-responsive">
+        <table class="table table-bordeless table-responsive-sm mt-4">
+            <thead>
+                <tr class="text-left">                
+                    <th>
+                        <div class="d-flex flex-row mb-3">
+                            <input [(ngModel)]="ComputerNameFilter"
+                            (keyup)="FilterFn()" placeholder="Filtrar">
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('computer_Name', true)">
+                                <span class="fas fa-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('computer_Name', false)">
+                                <span class="fas fa-arrow-down"></span>
+                            </button>
+                        </div>
+                        Nombre
+                    </th>
+                    <th>
+                        <div class="d-flex flex-row mb-3">
+                            <input [(ngModel)]="ComputerOperativeSystemFilter"
+                            (keyup)="FilterFn()" placeholder="Filtrar">
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('operative_System', true)">
+                                <span class="fas fa-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('operative_System', false)">
+                                <span class="fas fa-arrow-down"></span>
+                            </button>
+                        </div>
+                        Sistema Operativo
+                    </th>
+                    <th>
+                        <div class="d-flex flex-row mb-3">
+                            <input [(ngModel)]="ComputerServicePackFilter"
+                            (keyup)="FilterFn()" placeholder="Filtrar">
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('service_Pack', true)">
+                                <span class="fas fa-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('service_Pack', false)">
+                                <span class="fas fa-arrow-down"></span>
+                            </button>
+                        </div>
+                        Service Pack
+                    </th>
+                    <th>
+                        <div class="d-flex flex-row mb-3">
+                            <input [(ngModel)]="ComputerAntivirusFilter"
+                            (keyup)="FilterFn()" placeholder="Filtrar">
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('antivirus', true)">
+                                <span class="fas fa-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('antivirus', false)">
+                                <span class="fas fa-arrow-down"></span>
+                            </button>
+                        </div>
+                        Antivirus
+                    </th>
+                    <th>
+                        <div class="d-flex flex-row mb-3">
+                            <input [(ngModel)]="ComputerSerialNumberFilter"
+                            (keyup)="FilterFn()" placeholder="Filtrar">
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('serial_Number', true)">
+                                <span class="fas fa-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('serial_Number', false)">
+                                <span class="fas fa-arrow-down"></span>
+                            </button>
+                        </div>
+                        # Serie
+                    </th>
+                    <th>
+                        <div class="d-flex flex-row mb-3">
+                            <input [(ngModel)]="ComputerInventoryNumberFilter"
+                            (keyup)="FilterFn()" placeholder="Filtrar">
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('inventory_Number', true)">
+                                <span class="fas fa-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('inventory_Number', false)">
+                                <span class="fas fa-arrow-down"></span>
+                            </button>
+                        </div>
+                        # Inventario
+                    </th>
+                    <th>
+                        <div class="d-flex flex-row mb-3">
+                            <input [(ngModel)]="ComputerOrigenFilter"
+                            (keyup)="FilterFn()" placeholder="Filtrar">
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('origen', true)">
+                                <span class="fas fa-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('origen', false)">
+                                <span class="fas fa-arrow-down"></span>
+                            </button>
+                        </div>
+                        Origen
+                    </th>                    
+                    <th style="padding: 0.5rem 5.5rem; text-align: center;">
+                        Sellada
+                    </th>
+                    <th colspan="2">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of itemList" class="text-left">
+                    <td>{{ item.computer_Name }}</td>
+                    <td>{{ item.operative_System }}</td>
+                    <td>{{ item.service_Pack }}</td>                    
+                    <td>{{ item.antivirus }}</td>                    
+                    <td>{{ item.serial_Number }}</td>                    
+                    <td>{{ item.inventory_Number }}</td>
+                    <td>{{ item.origen }}</td>
+                    <td style="padding: 0.5rem 5.5rem; text-align: center;" *ngIf="item.sealed"><span class="fa fa-check"></span></td>
+                    <td style="padding: 0.5rem 5.5rem; text-align: center;" *ngIf="!item.sealed"><span class="fa fa-minus-circle"></span></td>
+                    <td>
+                        <div class="areaButton">
+                            <button      
+                                (click)="editItem(item.id)"                           
+                                type="button" 
+                                class="btn btn-sm btn-primary" 
+                                data-bs-toggle="modal" data-bs-target="#Modal" 
+                                databackdrop="static" data-keyboard="false"
+                            >
+                                <span class="fas fa-edit"></span>
+                            </button>
+                            <button 
+                                class="btn btn-sm btn-danger" 
+                                (click)="deleteItem(item)"                                
+                            >
+                                <span class="fas fa-trash"></span> 
+                            </button>
+                        </div>                        
+                    </td>            
+                </tr>
+            </tbody>
+        </table>
+    </div>        
+</div>

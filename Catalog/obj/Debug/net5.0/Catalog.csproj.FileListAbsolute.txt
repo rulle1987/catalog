@@ -1,0 +1,279 @@
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\appsettings.Development.json
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\appsettings.json
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\Catalog.exe
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\Catalog.deps.json
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\Catalog.runtimeconfig.json
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\Catalog.runtimeconfig.dev.json
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\Catalog.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\ref\Catalog.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\Catalog.pdb
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\DnsClient.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\MongoDB.Bson.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\MongoDB.Driver.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\SharpCompress.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\runtimes\linux\native\libsnappy64.so
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\runtimes\linux\native\libzstd.so
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\runtimes\osx\native\libsnappy64.dylib
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\runtimes\osx\native\libzstd.dylib
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+D:\Proyectos\VSC\Catalog\obj\Debug\net5.0\Catalog.csproj.AssemblyReference.cache
+D:\Proyectos\VSC\Catalog\obj\Debug\net5.0\Catalog.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\VSC\Catalog\obj\Debug\net5.0\Catalog.AssemblyInfoInputs.cache
+D:\Proyectos\VSC\Catalog\obj\Debug\net5.0\Catalog.AssemblyInfo.cs
+D:\Proyectos\VSC\Catalog\obj\Debug\net5.0\Catalog.csproj.CoreCompileInputs.cache
+D:\Proyectos\VSC\Catalog\obj\Debug\net5.0\Catalog.MvcApplicationPartsAssemblyInfo.cs
+D:\Proyectos\VSC\Catalog\obj\Debug\net5.0\Catalog.MvcApplicationPartsAssemblyInfo.cache
+D:\Proyectos\VSC\Catalog\obj\Debug\net5.0\staticwebassets\Catalog.StaticWebAssets.Manifest.cache
+D:\Proyectos\VSC\Catalog\obj\Debug\net5.0\staticwebassets\Catalog.StaticWebAssets.xml
+D:\Proyectos\VSC\Catalog\obj\Debug\net5.0\scopedcss\bundle\Catalog.styles.css
+D:\Proyectos\VSC\Catalog\obj\Debug\net5.0\Catalog.RazorTargetAssemblyInfo.cache
+D:\Proyectos\VSC\Catalog\obj\Debug\net5.0\Catalog.dll
+D:\Proyectos\VSC\Catalog\obj\Debug\net5.0\ref\Catalog.dll
+D:\Proyectos\VSC\Catalog\obj\Debug\net5.0\Catalog.pdb
+D:\Proyectos\VSC\Catalog\obj\Debug\net5.0\Catalog.genruntimeconfig.cache
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\HealthChecks.MongoDb.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\Proyectos\VSC\Catalog\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\appsettings.Development.json
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\appsettings.json
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\Catalog.exe
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\Catalog.deps.json
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\Catalog.runtimeconfig.json
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\Catalog.runtimeconfig.dev.json
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\Catalog.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\ref\Catalog.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\Catalog.pdb
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\HealthChecks.MongoDb.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\DnsClient.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\MongoDB.Bson.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\MongoDB.Driver.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\SharpCompress.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\runtimes\linux\native\libsnappy64.so
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\runtimes\linux\native\libzstd.so
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\runtimes\osx\native\libsnappy64.dylib
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\runtimes\osx\native\libzstd.dylib
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+D:\Proyectos\VSC\Catalog\Catalog\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+D:\Proyectos\VSC\Catalog\Catalog\obj\Debug\net5.0\Catalog.csproj.AssemblyReference.cache
+D:\Proyectos\VSC\Catalog\Catalog\obj\Debug\net5.0\Catalog.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\VSC\Catalog\Catalog\obj\Debug\net5.0\Catalog.AssemblyInfoInputs.cache
+D:\Proyectos\VSC\Catalog\Catalog\obj\Debug\net5.0\Catalog.AssemblyInfo.cs
+D:\Proyectos\VSC\Catalog\Catalog\obj\Debug\net5.0\Catalog.csproj.CoreCompileInputs.cache
+D:\Proyectos\VSC\Catalog\Catalog\obj\Debug\net5.0\Catalog.MvcApplicationPartsAssemblyInfo.cs
+D:\Proyectos\VSC\Catalog\Catalog\obj\Debug\net5.0\Catalog.MvcApplicationPartsAssemblyInfo.cache
+D:\Proyectos\VSC\Catalog\Catalog\obj\Debug\net5.0\staticwebassets\Catalog.StaticWebAssets.Manifest.cache
+D:\Proyectos\VSC\Catalog\Catalog\obj\Debug\net5.0\staticwebassets\Catalog.StaticWebAssets.xml
+D:\Proyectos\VSC\Catalog\Catalog\obj\Debug\net5.0\scopedcss\bundle\Catalog.styles.css
+D:\Proyectos\VSC\Catalog\Catalog\obj\Debug\net5.0\Catalog.RazorTargetAssemblyInfo.cache
+D:\Proyectos\VSC\Catalog\Catalog\obj\Debug\net5.0\Catalog.dll
+D:\Proyectos\VSC\Catalog\Catalog\obj\Debug\net5.0\ref\Catalog.dll
+D:\Proyectos\VSC\Catalog\Catalog\obj\Debug\net5.0\Catalog.pdb
+D:\Proyectos\VSC\Catalog\Catalog\obj\Debug\net5.0\Catalog.genruntimeconfig.cache
+D:\Proyectos\VSC\Catalog\obj\Debug\net5.0\Catalog.csproj.CopyComplete
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\appsettings.Development.json
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\appsettings.json
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\Catalog.exe
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\Catalog.deps.json
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\Catalog.runtimeconfig.json
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\Catalog.runtimeconfig.dev.json
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\Catalog.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\ref\Catalog.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\Catalog.pdb
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\HealthChecks.MongoDb.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\DnsClient.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\MongoDB.Bson.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\MongoDB.Driver.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\SharpCompress.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\runtimes\linux\native\libsnappy64.so
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\runtimes\linux\native\libzstd.so
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\runtimes\osx\native\libsnappy64.dylib
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\runtimes\osx\native\libzstd.dylib
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+D:\Proyectos\VSC\NET.Core\Catalog\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+D:\Proyectos\VSC\NET.Core\Catalog\obj\Debug\net5.0\Catalog.csproj.AssemblyReference.cache
+D:\Proyectos\VSC\NET.Core\Catalog\obj\Debug\net5.0\Catalog.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\VSC\NET.Core\Catalog\obj\Debug\net5.0\Catalog.AssemblyInfoInputs.cache
+D:\Proyectos\VSC\NET.Core\Catalog\obj\Debug\net5.0\Catalog.AssemblyInfo.cs
+D:\Proyectos\VSC\NET.Core\Catalog\obj\Debug\net5.0\Catalog.csproj.CoreCompileInputs.cache
+D:\Proyectos\VSC\NET.Core\Catalog\obj\Debug\net5.0\Catalog.MvcApplicationPartsAssemblyInfo.cs
+D:\Proyectos\VSC\NET.Core\Catalog\obj\Debug\net5.0\Catalog.MvcApplicationPartsAssemblyInfo.cache
+D:\Proyectos\VSC\NET.Core\Catalog\obj\Debug\net5.0\staticwebassets\Catalog.StaticWebAssets.Manifest.cache
+D:\Proyectos\VSC\NET.Core\Catalog\obj\Debug\net5.0\staticwebassets\Catalog.StaticWebAssets.xml
+D:\Proyectos\VSC\NET.Core\Catalog\obj\Debug\net5.0\scopedcss\bundle\Catalog.styles.css
+D:\Proyectos\VSC\NET.Core\Catalog\obj\Debug\net5.0\Catalog.RazorTargetAssemblyInfo.cache
+D:\Proyectos\VSC\NET.Core\Catalog\obj\Debug\net5.0\Catalog.csproj.CopyComplete
+D:\Proyectos\VSC\NET.Core\Catalog\obj\Debug\net5.0\Catalog.dll
+D:\Proyectos\VSC\NET.Core\Catalog\obj\Debug\net5.0\ref\Catalog.dll
+D:\Proyectos\VSC\NET.Core\Catalog\obj\Debug\net5.0\Catalog.pdb
+D:\Proyectos\VSC\NET.Core\Catalog\obj\Debug\net5.0\Catalog.genruntimeconfig.cache
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\appsettings.json
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\Catalog.exe
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\Catalog.deps.json
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\Catalog.runtimeconfig.json
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\Catalog.runtimeconfig.dev.json
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\Catalog.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\ref\Catalog.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\Catalog.pdb
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\HealthChecks.MongoDb.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\DnsClient.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\MongoDB.Bson.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\MongoDB.Driver.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\SharpCompress.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\runtimes\linux\native\libsnappy64.so
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\runtimes\linux\native\libzstd.so
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\runtimes\osx\native\libsnappy64.dylib
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\runtimes\osx\native\libzstd.dylib
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\obj\Debug\net5.0\Catalog.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\obj\Debug\net5.0\Catalog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\obj\Debug\net5.0\Catalog.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\obj\Debug\net5.0\Catalog.AssemblyInfo.cs
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\obj\Debug\net5.0\Catalog.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\obj\Debug\net5.0\Catalog.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\obj\Debug\net5.0\Catalog.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\obj\Debug\net5.0\staticwebassets\Catalog.StaticWebAssets.Manifest.cache
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\obj\Debug\net5.0\staticwebassets\Catalog.StaticWebAssets.xml
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\obj\Debug\net5.0\scopedcss\bundle\Catalog.styles.css
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\obj\Debug\net5.0\Catalog.RazorTargetAssemblyInfo.cache
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\obj\Debug\net5.0\Catalog.csproj.CopyComplete
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\obj\Debug\net5.0\Catalog.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\obj\Debug\net5.0\ref\Catalog.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\obj\Debug\net5.0\Catalog.pdb
+C:\Users\admin\Desktop\Tico Work\Work\Proyect\VSC\Catalog\obj\Debug\net5.0\Catalog.genruntimeconfig.cache
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\appsettings.json
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\Catalog.exe
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\Catalog.deps.json
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\Catalog.runtimeconfig.json
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\Catalog.runtimeconfig.dev.json
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\Catalog.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\ref\Catalog.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\Catalog.pdb
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\HealthChecks.MongoDb.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\DnsClient.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\MongoDB.Bson.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\MongoDB.Driver.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\SharpCompress.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\runtimes\linux\native\libsnappy64.so
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\runtimes\linux\native\libzstd.so
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\runtimes\osx\native\libsnappy64.dylib
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\runtimes\osx\native\libzstd.dylib
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\obj\Debug\net5.0\Catalog.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\obj\Debug\net5.0\Catalog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\obj\Debug\net5.0\Catalog.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\obj\Debug\net5.0\Catalog.AssemblyInfo.cs
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\obj\Debug\net5.0\Catalog.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\obj\Debug\net5.0\Catalog.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\obj\Debug\net5.0\Catalog.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\obj\Debug\net5.0\staticwebassets\Catalog.StaticWebAssets.Manifest.cache
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\obj\Debug\net5.0\staticwebassets\Catalog.StaticWebAssets.xml
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\obj\Debug\net5.0\scopedcss\bundle\Catalog.styles.css
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\obj\Debug\net5.0\Catalog.RazorTargetAssemblyInfo.cache
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\obj\Debug\net5.0\Catalog.csproj.CopyComplete
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\obj\Debug\net5.0\Catalog.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\obj\Debug\net5.0\ref\Catalog.dll
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\obj\Debug\net5.0\Catalog.pdb
+C:\Users\admin\Desktop\Tico Work\Work\Proyects\VSC\Angular\Catalog\obj\Debug\net5.0\Catalog.genruntimeconfig.cache

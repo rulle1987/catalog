@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+
+.areaButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box_input {
+    margin-top: -10px;
+}
+label {
+    font-size: 14px;
+}
+.error {
+    color: red;    
+}
+.success {
+    color: green;
+}
+.error, .success {
+    font-size: 12px;
+}
+a.dropdown-item.drop {
+    color: black;
+}
+
+.header_container {
+    background-image: url(assets/img/1.jpg);
+    width: 100%;
+    height: 250px;
+}
+.header_container nav {
+    margin-top: 135px;
+}

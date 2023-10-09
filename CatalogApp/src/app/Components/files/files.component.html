@@ -1,0 +1,308 @@
+<div class="p-5 mb-4 bg-light rounded-3">
+    <div class="container-fluid py-3">
+        <h3 class="display-5 fw-bold">Expedientes de Computadoras</h3>
+        <p>Usted puede agregar, editar o eliminar Expedientes de Computadoras.</p>
+        <button (click)="clickAddItem()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal" 
+        databackdrop="static" data-keyboard="false">
+            Agregar Expediente
+        </button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">                
+                <div class="modal-body">
+                    <form [formGroup]="formValue">
+
+                        <div class="row" style="border-bottom: 1px solid #dee2e6;">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <h3 class="modal-title" style="text-align: center; display: block; padding: 0.75rem;">{{ ModalTitle }}</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="area">Área:</label>
+                                    <select class="form-select" formControlName="area">
+                                        <option value="null">Seleccionar</option>
+                                        <option *ngFor="let item of areasList" value="{{item}}">{{ item }}</option>
+                                    </select>                                    
+                                    <span *ngIf="area && area.invalid && area.touched" class="error">Este campo es requerido</span>
+                                    <span *ngIf="area && area.valid" class="success">El campo es correcto</span>                                    
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="manager_Area">Responsabel de Área:</label>
+                                    <input type="text" id="manager_Area" class="form-control" formControlName="manager_Area" autocomplete="off">                                    
+                                    <span *ngIf="manager_Area && manager_Area.invalid && manager_Area.touched" class="error">Este campo es requerido</span>
+                                    <span *ngIf="manager_Area && manager_Area.valid" class="success">El campo es correcto</span>                                    
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="manager_Computer">Responsable de PC:</label>
+                                    <input type="text" id="manager_Computer" class="form-control" formControlName="manager_Computer" autocomplete="off">                                    
+                                    <span *ngIf="manager_Computer && manager_Computer.invalid && manager_Computer.touched" class="error">Este campo es requerido</span>
+                                    <span *ngIf="manager_Computer && manager_Computer.valid" class="success">El campo es correcto</span>                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="computer">Computadora:</label>
+                                    <select class="form-select" formControlName="computer">
+                                        <option value="null">Seleccionar</option>                                        
+                                        <option *ngFor="let item of computerlist" value="{{item.id}}">{{ item.computer_Name }} | {{ item.operative_System }}</option>
+                                    </select>                                    
+                                    <span *ngIf="computer && computer.invalid && computer.touched" class="error">Este campo es requerido</span>
+                                    <span *ngIf="computer && computer.valid" class="success">El campo es correcto</span>                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="monitor">Monitor:</label>
+                                    <select class="form-select" formControlName="monitor">
+                                        <option value="null">Seleccionar</option>                                        
+                                        <option *ngFor="let item of monitorList" value="{{item.id}}">{{ item.brand }} | {{ item.serial_Number }} <span *ngIf="item.inventory_Number != '-----'">| {{ item.inventory_Number }}</span></option>
+                                    </select>                                    
+                                    <span *ngIf="monitor && monitor.invalid && monitor.touched" class="error">Este campo es requerido</span>
+                                    <span *ngIf="monitor && monitor.valid" class="success">El campo es correcto</span>                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="motherBoard">MotherBoard:</label>
+                                    <select class="form-select" formControlName="motherBoard">
+                                        <option value="null">Seleccionar</option>                                        
+                                        <option *ngFor="let item of motherBoardList" value="{{item.id}}">{{ item.name }} | {{ item.manufacter }} | {{ item.product }} | {{ item.micro }}</option>
+                                    </select>                                    
+                                    <span *ngIf="motherBoard && motherBoard.invalid && motherBoard.touched" class="error">Este campo es requerido</span>
+                                    <span *ngIf="motherBoard && motherBoard.valid" class="success">El campo es correcto</span>                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="keyboard">Teclado:</label>
+                                    <select class="form-select" formControlName="keyboard">
+                                        <option value="null">Seleccionar</option>                                        
+                                        <option *ngFor="let item of keyboardList" value="{{item.id}}">{{ item.brand }} | {{ item.type }} | {{ item.serial_Number }}<span *ngIf="item.inventory_Number != '-----'">| {{ item.inventory_Number }}</span></option>
+                                    </select>                                    
+                                    <span *ngIf="keyboard && keyboard.invalid && keyboard.touched" class="error">Este campo es requerido</span>
+                                    <span *ngIf="keyboard && keyboard.valid" class="success">El campo es correcto</span>                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="mouse">Mouse:</label>
+                                    <select class="form-select" formControlName="mouse">
+                                        <option value="null">Seleccionar</option>                                        
+                                        <option *ngFor="let item of mouseList" value="{{item.id}}">{{ item.brand }} | {{ item.type }} | {{ item.serial_Number }}<span *ngIf="item.inventory_Number != '-----'">| {{ item.inventory_Number }}</span></option>
+                                    </select>                                    
+                                    <span *ngIf="mouse && mouse.invalid && mouse.touched" class="error">Este campo es requerido</span>
+                                    <span *ngIf="mouse && mouse.valid" class="success">El campo es correcto</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="network">Datos de Red:</label>
+                                    <select class="form-select" formControlName="network">
+                                        <option value="null">Seleccionar</option>                                        
+                                        <option *ngFor="let item of networkList" value="{{item.id}}">Dirección IP: {{ item.ipAddress }} | Mac: {{ item.mac }}</option>
+                                    </select>                                    
+                                    <span *ngIf="network && network.invalid && network.touched" class="error">Este campo es requerido</span>
+                                    <span *ngIf="network && network.valid" class="success">El campo es correcto</span>                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="tower">Torre CD/DVD:</label>
+                                    <select class="form-select" formControlName="tower">
+                                        <option value="null">Seleccionar</option>                                        
+                                        <option *ngFor="let item of towerList" value="{{item.id}}">{{ item.brand }} | {{ item.serial_Number }}</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="printer">Impresora:</label>
+                                    <select class="form-select" formControlName="printer">
+                                        <option value="null">Seleccionar:</option>                                        
+                                        <option *ngFor="let item of printerList" value="{{item.id}}">{{ item.brand }} | {{ item.model }} | {{ item.serial_Number }} <span *ngIf="item.inventory_Number != '-----'">| {{ item.inventory_Number }}</span></option>
+                                    </select>                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="speaker">Speaker:</label>
+                                    <select class="form-select" formControlName="speaker">
+                                        <option value="null">Seleccionar:</option>                                        
+                                        <option *ngFor="let item of speakerList" value="{{item.id}}">{{ item.brand }} | {{ item.model }} <span *ngIf="item.serial_Number != '-----'">| {{ item.serial_Number }}</span> <span *ngIf="item.inventory_Number != '-----'">| {{ item.inventory_Number }}</span></option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="ups">UPS:</label>
+                                    <select class="form-select" formControlName="ups">
+                                        <option value="null">Seleccionar</option>                                        
+                                        <option *ngFor="let item of upsList" value="{{item.id}}">{{ item.brand }} | {{ item.serial_Number }} | Potencia: {{ item.inventory_Number }}W</option>
+                                    </select>                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row" style="margin-top: 10px;">
+                            <div class="col-lg-12">
+                                <div class="form-gorup">                                    
+                                    <div class="modal-footer">
+                                        <button type="button" id="clear" class="btn btn-secondary btn-block" data-bs-dismiss="modal" aria-label="Close">Close</button>
+                                        <button *ngIf="showAdd" type="submit" class="btn btn-primary btn-block" (click)="addItem()" [disabled]="!formValue.valid">Guardar</button>                                        
+                                        <button *ngIf="showEdit" type="submit" class="btn btn-success btn-block" (click)="updateItem()" [disabled]="!formValue.valid">Actualizar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </form>
+                </div>                
+            </div>
+        </div>
+    </div> 
+   
+    <!-- Table -->
+    <div class="table-responsive">
+        <table class="table table-bordeless table-responsive-sm mt-4">
+            <thead>
+                <tr class="text-left">
+                    <th>                        
+                        Fecha
+                    </th>
+                    <th>                        
+                        Área
+                    </th>
+                    <th>
+                        Responsable de Área
+                    </th>
+                    <th>
+                        Responsable de PC
+                    </th>
+                    <th>
+                        PC
+                    </th>
+                    <th>
+                        OS
+                    </th>
+                    <th>
+                        Micro
+                    </th>
+                    <th>Monitor</th> 
+                    <th>Teclado</th>
+                    <th>Mouse</th>
+                    <th>IP</th>
+                    <th>UPS</th>
+                    <th>Impresora</th>
+                    <th>Speaker</th>
+                    <th>CD/DVD</th>
+                    <th colspan="2">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of itemList" class="text-left">
+                    <td>{{ item.created | date: 'd/M/y' }}</td>
+                    <td>{{ item.area }}</td>
+                    <td>{{ item.manager_Area }}</td>
+                    <td>{{ item.manager_Computer }}</td>
+                    <td>{{ item.computer.computer_Name }}</td>
+                    <td>{{ item.computer.operative_System }}</td>
+                    <td>{{ item.motherBoard.micro }} GHz</td>
+                    <td>{{ item.monitor.brand }}</td>
+                    <td>{{ item.keyboard.brand }}</td>
+                    <td>{{ item.mouse.brand }}</td>
+                    <td>{{ item.network.ipAddress }}</td>
+                    <td *ngIf="item.ups.brand">{{ item.ups.brand }}</td>
+                    <td *ngIf="!item.ups.brand">-----</td>
+                    <td *ngIf="item.printer.brand">{{ item.printer.brand }}</td>
+                    <td *ngIf="!item.printer.brand">-----</td>
+                    <td *ngIf="item.speaker.brand">{{ item.speaker.brand }}</td>
+                    <td *ngIf="!item.speaker.brand">-----</td>
+                    <td *ngIf="item.tower.brand">{{ item.tower.brand }}</td>
+                    <td *ngIf="!item.tower.brand">-----</td>
+                    <td>
+                        <div class="areaButton">
+                            <button      
+                                (click)="editItem(item.id)"                           
+                                type="button" 
+                                class="btn btn-sm btn-primary" 
+                                data-bs-toggle="modal" data-bs-target="#Modal" 
+                                databackdrop="static" data-keyboard="false"
+                            >
+                                <span class="fas fa-edit"></span>
+                            </button>
+                            <button 
+                                class="btn btn-sm btn-danger" 
+                                (click)="deleteItem(item)"                                
+                            >
+                                <span class="fas fa-trash"></span>
+                            </button>
+                        </div>                        
+                    </td>            
+                </tr>
+            </tbody>
+        </table>
+    </div>        
+</div>

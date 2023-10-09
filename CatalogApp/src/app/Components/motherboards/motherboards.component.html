@@ -1,0 +1,217 @@
+<div class="p-5 mb-4 bg-light rounded-3">
+    <div class="container-fluid py-3">
+        <h3 class="display-5 fw-bold">MotherBoards</h3>
+        <p>Usted puede agregar, editar o eliminar registros de MotherBoards.</p>
+        <button (click)="clickAddItem()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal" 
+        databackdrop="static" data-keyboard="false">
+            Agregar MotherBoard
+        </button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">                
+                <div class="modal-body">
+                    <form [formGroup]="formValue">
+
+                        <div class="row" style="border-bottom: 1px solid #dee2e6;">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <h3 class="modal-title" style="text-align: center; display: block; padding: 0.75rem;">{{ ModalTitle }}</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="name">Nombre: </label>
+                                    <input type="text" id="name" class="form-control" formControlName="name" autocomplete="off">                                   
+                                    <span *ngIf="name && name.invalid && name.touched" class="error">Este campo es requerido</span>
+                                    <span *ngIf="name && name.valid" class="success">El campo es correcto</span>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="manufacter">Fabricante:</label>
+                                    <input type="text" id="manufacter" class="form-control" formControlName="manufacter" autocomplete="off">                                    
+                                    <span *ngIf="manufacter && manufacter.invalid && manufacter.touched" class="error">Este campo es requerido</span>
+                                    <span *ngIf="manufacter && manufacter.valid" class="success">El campo es correcto</span>                                    
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="product">Producto:</label>
+                                    <input type="text" id="product" class="form-control" formControlName="product" autocomplete="off">                                    
+                                    <span *ngIf="product && product.invalid && product.touched" class="error">Este campo es requerido</span>
+                                    <span *ngIf="product && product.valid" class="success">El campo es correcto</span>                                    
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="micro">Micro:</label>
+                                    <input type="text" id="micro" class="form-control" formControlName="micro" autocomplete="off">                                    
+                                    <span *ngIf="micro && micro.invalid && micro.touched" class="error"> Este campo es requerido</span>
+                                    <span *ngIf="micro && micro.valid" class="success">El campo es correcto</span>                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 box_input">
+                                <div class="form-gorup">
+                                    <br>
+                                    <label for="origen">Origen:</label>
+                                    <input type="text" id="origen" class="form-control" formControlName="origen" autocomplete="off">                                    
+                                    <span *ngIf="origen && origen.invalid && origen.touched" class="error"> Este campo es requerido</span>
+                                    <span *ngIf="origen && origen.valid" class="success">El campo es correcto</span>                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row" style="margin-top: 10px;">
+                            <div class="col-lg-12">
+                                <div class="form-gorup">                                    
+                                    <div class="modal-footer">
+                                        <button type="button" id="clear" class="btn btn-secondary btn-block" data-bs-dismiss="modal" aria-label="Close">Close</button>
+                                        <button *ngIf="showAdd" type="submit" class="btn btn-primary btn-block" (click)="addItem()" [disabled]="!formValue.valid">Guardar</button>                                        
+                                        <button *ngIf="showEdit" type="submit" class="btn btn-success btn-block" (click)="updateItem()" [disabled]="!formValue.valid">Actualizar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </form>
+                </div>                
+            </div>
+        </div>
+    </div>
+   
+    <!-- Table -->
+    <div class="table-responsive">
+        <table class="table table-bordeless table-responsive-sm mt-4">
+            <thead>
+                <tr class="text-left">                
+                    <th>
+                        <div class="d-flex flex-row mb-3">
+                            <input [(ngModel)]="MotherBoardNameFilter"
+                            (keyup)="FilterFn()" placeholder="Filtrar">
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('name', true)">
+                                <span class="fas fa-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('name', false)">
+                                <span class="fas fa-arrow-down"></span>
+                            </button>
+                        </div>
+                        Nombre
+                    </th>
+                    <th>
+                        <div class="d-flex flex-row mb-3">
+                            <input [(ngModel)]="MotherBoardManufacterFilter"
+                            (keyup)="FilterFn()" placeholder="Filtrar">
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('manufacter', true)">
+                                <span class="fas fa-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('manufacter', false)">
+                                <span class="fas fa-arrow-down"></span>
+                            </button>
+                        </div>
+                        Fabricante
+                    </th>
+                    <th>
+                        <div class="d-flex flex-row mb-3">
+                            <input [(ngModel)]="MotherBoardProductFilter"
+                            (keyup)="FilterFn()" placeholder="Filtrar">
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('product', true)">
+                                <span class="fas fa-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('product', false)">
+                                <span class="fas fa-arrow-down"></span>
+                            </button>
+                        </div>
+                        Producto
+                    </th>
+                    <th>
+                        <div class="d-flex flex-row mb-3">
+                            <input [(ngModel)]="MotherBoardMicroFilter"
+                            (keyup)="FilterFn()" placeholder="Filtrar">
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('micro', true)">
+                                <span class="fas fa-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('micro', false)">
+                                <span class="fas fa-arrow-down"></span>
+                            </button>
+                        </div>
+                        Micro
+                    </th>
+                    <th>
+                        <div class="d-flex flex-row mb-3">
+                            <input [(ngModel)]="MotherBoardOrigenFilter"
+                            (keyup)="FilterFn()" placeholder="Filtrar">
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('origen', true)">
+                                <span class="fas fa-arrow-up"></span>
+                            </button>
+                            <button type="button" class="btn btn-light btn-sm"
+                            (click)="sortResult('origen', false)">
+                                <span class="fas fa-arrow-down"></span>
+                            </button>
+                        </div>
+                        Origen
+                    </th> 
+                    <th colspan="2">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of itemList" class="text-left">
+                    <td>{{ item.name }}</td>
+                    <td>{{ item.manufacter }}</td>
+                    <td>{{ item.product }}</td>                    
+                    <td>{{ item.micro }} GHz</td>
+                    <td>{{ item.origen }} GHz</td>
+                    <td>
+                        <div class="areaButton">
+                            <button      
+                                (click)="editItem(item.id)"                           
+                                type="button" 
+                                class="btn btn-sm btn-primary" 
+                                data-bs-toggle="modal" data-bs-target="#Modal" 
+                                databackdrop="static" data-keyboard="false"
+                            >
+                                <span class="fas fa-edit"></span>
+                            </button>
+                            <button 
+                                class="btn btn-sm btn-danger" 
+                                (click)="deleteItem(item)"                                
+                            >
+                                <span class="fas fa-trash"></span>
+                            </button>
+                        </div>                        
+                    </td>            
+                </tr>
+            </tbody>
+        </table>
+    </div>        
+</div>

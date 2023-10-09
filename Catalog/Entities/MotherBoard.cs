@@ -1,0 +1,18 @@
+using System;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
+
+namespace Catalog
+{
+    public record MotherBoard
+    {
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string Id { get; set; }
+        public string Name { get; set; }
+        public string Manufacter { get; set; }
+        public string Product { get; set; }
+        public string Micro { get; set; }
+        public string Origen { get; set; }
+    }
+}

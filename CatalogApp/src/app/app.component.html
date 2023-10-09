@@ -1,0 +1,49 @@
+<div class="header_container">
+    <div class="app-container pt-5">
+        <nav class="navbar navbar-expand-lg bg-primary rounded">
+            <div class="container">
+                <a class="navbar-brand" routerLink="files">Catálogo</a>
+                <button
+                    class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarcollapse" 
+                    aria-controls="navbarcollapse" 
+                    aria-expanded="false" 
+                    aria-label="Toggle Navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse justify-content-md-center collapse" id="navbarcollapse">
+                    <ul class="navbar-nav">                      
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" routerLink="files">Expedientes</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Componentes</a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                                <li><a class="dropdown-item" style="color: #333;" aria-current="page" routerLink="computers">Computadora</a></li>
+                                <li><a class="dropdown-item" style="color: #333;" aria-current="page" routerLink="motherboards">MotherBoard</a></li>
+                                <li><a class="dropdown-item" style="color: #333;" aria-current="page" routerLink="monitors">Monitor</a></li>
+                                <li><a class="dropdown-item" style="color: #333;" aria-current="page" routerLink="keyboards">Teclado</a></li>
+                                <li><a class="dropdown-item" style="color: #333;" aria-current="page" routerLink="mouses">Mouse</a></li>
+                                <li><a class="dropdown-item" style="color: #333;" aria-current="page" routerLink="rams">RAM</a></li>
+                                <li><a class="dropdown-item" style="color: #333;" aria-current="page" routerLink="printers">Impresora</a></li>
+                                <li><a class="dropdown-item" style="color: #333;" aria-current="page" routerLink="hdds">Disco Duro</a></li>
+                                <li><a class="dropdown-item" style="color: #333;" aria-current="page" routerLink="towers">Torre CD/DVD</a></li>
+                                <li><a class="dropdown-item" style="color: #333;" aria-current="page" routerLink="network">Detalles de Red</a></li>
+                                <li><a class="dropdown-item" style="color: #333;" aria-current="page" routerLink="ups">UPS</a></li>
+                                <li><a class="dropdown-item" style="color: #333;" aria-current="page" routerLink="speakers">Speaker</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>               
+        </nav>
+    </div>
+</div>
+<div class="app-container pt-5">
+    <div class="mt-5">
+        <router-outlet></router-outlet>
+    </div>    
+</div>
